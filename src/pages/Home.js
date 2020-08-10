@@ -2,16 +2,15 @@ import React from 'react';
 
 function Home() {
     return (
-        <section className="home">
-        <div className= "container">
-            <h1>
-            welcome to the home page
-            </h1>
-        </div>
-
-        <div className="container">
-
-        </div>
+        <section className="hero-container">
+            <div className="hero-items">
+                <h1 className="hero-title">
+                    welcome to photos
+                </h1>
+                <h3>
+                    By fuquinn
+                </h3>
+            </div>
         </section>
     )
 }

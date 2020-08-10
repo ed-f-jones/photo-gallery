@@ -15,7 +15,7 @@
   justify-content: space-around;
   align-items: center;
   color: #fff;
-  padding: 1rem;
+  padding: .5rem;
 }
 
 .nav-items {
@@ -38,8 +38,12 @@ padding: .25rem;
   cursor: pointer;
 }
 
-section {
-  max-width: 100%;
+.hero-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
-  margin: auto;
+  background-color: #f5f5f5;
+  color: #333;
 }
