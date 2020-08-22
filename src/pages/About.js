@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Hero from '../components/Hero';
+import Banner from '../components/Banner';
 
 function About() {
     return (
-        <section>
-            <h3>welcome to the about page</h3>
-        </section>
+        <>
+        <Hero hero="aboutHero">
+            <Banner title="Get to know fuquinn"/>
+        </Hero>
+        </>
     )
 }
 

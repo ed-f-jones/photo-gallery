@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Hero from '../components/Hero';
+import Banner from '../components/Banner';
 
 function Contact() {
     return (
-        <section>
-            hello from the contact 
-        </section>
+       
+       <>
+       <Hero hero="contactHero">
+            <Banner title="how to contact me"/>
+       </Hero>
+       </>
     )
 }
 
