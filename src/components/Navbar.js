@@ -7,7 +7,7 @@ function Navbar() {
                 <h4 className="logo">fuquinn</h4>
                 
                 <ul className="nav-items">
-                    <Link to="/" className="nav-links">
+                    <Link to="/home" className="nav-links">
                         <li>home</li>
                     </Link>
 

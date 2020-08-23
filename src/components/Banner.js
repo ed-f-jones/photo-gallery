@@ -5,9 +5,9 @@ import 'aos/dist/aos.css';
 function Banner({children, title, subtitle}) {
     AOS.init();
     return (
-        <div className="banner" data-aos="fade-up" data-aos-duration="1500">
-             <h1 className="title">{title}</h1>
-            <h3>{subtitle}</h3>
+        <div data-aos="fade-up" data-aos-duration="1500">
+             <h2>{title}</h2>
+            <h4>{subtitle}</h4>
              {children}
         </div>
     )
