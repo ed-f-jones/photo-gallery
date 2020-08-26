@@ -9,13 +9,6 @@ function Home() {
     return (
         <>
         <Navbar/>
-        <Hero>
-            <Banner title=" welcome to photography" subtitle=" by Fuquinn">
-                <br/>
-                <a href="#readmore" className="cta-btn">read more</a>
-            </Banner>
-        </Hero>
-        <Cards/>
         </>
     )
 }

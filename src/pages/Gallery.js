@@ -1,13 +1,10 @@
 import React from 'react';
-import Hero from '../components/Hero';
-import Banner from '../components/Banner';
+import Navbar from '../components/Navbar';
 
 function Gallery() {
     return (
         <>
-        <Hero hero="galleryHero">
-            <Banner title="here is some of my work"/>
-        </Hero>
+        <Navbar/>
         </>
     )
 }

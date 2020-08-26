@@ -1,13 +1,10 @@
 import React from 'react';
-import Hero from '../components/Hero';
-import Banner from '../components/Banner';
+import Navbar from '../components/Navbar';
 
 function About() {
     return (
         <>
-        <Hero hero="aboutHero">
-            <Banner title="Get to know fuquinn"/>
-        </Hero>
+        <Navbar/>
         </>
     )
 }

@@ -1,14 +1,11 @@
 import React from 'react';
-import Hero from '../components/Hero';
-import Banner from '../components/Banner';
+import Navbar from '../components/Navbar';
 
 function Contact() {
     return (
        
        <>
-       <Hero hero="contactHero">
-            <Banner title="how to contact me"/>
-       </Hero>
+       <Navbar/>
        </>
     )
 }

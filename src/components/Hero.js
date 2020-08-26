@@ -10,8 +10,8 @@ function Hero({children, hero}){
     )
 }
 
-Hero.defaultProps ={
-    hero: "defaultHero"
+Hero.defaultProps = {
+    hero: "Hero-container"
 };
 
 export default Hero

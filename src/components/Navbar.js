@@ -3,23 +3,22 @@ import {Link} from 'react-router-dom';
 
 function Navbar() {
     return (
-            <nav className="nav">
-                <h4 className="logo">fuquinn</h4>
-                
-                <ul className="nav-items">
-                    <Link to="/home" className="nav-links">
+            <nav className="navbar">
+                <h5>edward jones</h5>
+                <ul>
+                    <Link to="/home">
                         <li>home</li>
                     </Link>
 
-                    <Link to="/about" className="nav-links">
+                    <Link to="/about">
                         <li>about</li>
                     </Link>
 
-                    <Link to="/gallery" className="nav-links">
+                    <Link to="/gallery">
                         <li>gallery</li>
                     </Link>
 
-                    <Link to="/contact" className="nav-links">
+                    <Link to="/contact">
                         <li>contact</li>
                     </Link>
                 </ul>
